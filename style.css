@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    line-height: 2em;
+    font-family: var(--insuco-font, "Open Sans", sans-serif);
+    color: var(--insuco-text, #616161);
+}
+
+.top-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1235px;
+    height: 34px;
+    padding: 0 15px 0 15px;
+} 
+
+.left-navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 475px;
+    height: 32px;
+}
+
+.left-top-nav-items {
+    margin: 0;
+    font-size: 16px;
+    
+}
+
+.mail-icon {
+  color: red;
+  margin-right: 10px;
+}  
+
+.mail-link {
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+}
+
+.pipe {
+    margin: 0 10px 0 10px;
+}
+
+.phone-icon {
+    color: #fa394a;
+    rotate: 270deg;
+    width: 24px;
+    height: 36px;
+    font-size: 23px;
+}
+
+.phone-link {
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+} 
+
+.right-topnav-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 535px;
+    height: 34px;
+    margin-left: 180px;
+}
+
+.student-portal-link {
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+    background: #ec1c24;
+    color: #fff;
+    font-size: 15px;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.teacher-login-link {
+    text-decoration: none;
+    color: #fff;
+    background: #2491ee;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    
+}
+
+.social-link {
+    width: 114px;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #616161;
+    padding-left: 10px;
+    margin-left: 10px;
+    line-height: 20px;
+    
+}
+
+.fb-icon {
+    color: #616161;
+
+}
+ 
+.x-icon {
+    color: #616161;
+
+}
+
+.youtube-icon {
+    color: #616161;
+
+} 
+
+.middle-nav-containeer {
+    width: 1268px;
+    height: 66px;
+    margin: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+    background-image: linear-gradient(90deg, var(#fffcd6, #00206e) 0%, var(#fa394a, #00accc) 100%);
+}
+
+.left-middle-nav {
+    display: flex;
+    align-items: center;
+}
+
+.right-middle-nav-container {
+    width: 309px;
+    height: 66px;
+}
+
+.right-middle-nav-item {
+    width: 264px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+ 
+.right-middle-nav-content {
+    width: 188px;
+    height: 48px;
+    padding-top: 17px;
+    padding-right: 6px;
+    
+} 
+
+.right-middle-nav-content a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.naac-grade {
+    width: 188px;
+    height: 16px;
+    display: block;
+    font-size: 16px;
+    line-height: 16px;
+    color: #eed308;
+    margin-bottom: 2px;
+    text-align: right;
+    font-weight: 700;
+}
+
+.accredited-institution {
+    width: 188px;
+    height: 22px;
+    color: #e0c80f;
+    font-weight: 400;
+    text-align: right;
+    font-size: 14px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    font-weight: bold;
+    
+}
+ 
+.naac-logo {
+    width: 70px;
+    height: 66px;
+}
+
+.bottom-nav-container {
+    width: 1268px;
+    height: 62px;
+    display: inline-flex;
+    align-items: center;
+    margin: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.left-bottom-nav-item {
+    display: flex;
+    padding: 0 15px;
+}
+
+.left-bottom-nav-item ul {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+.left-bottom-nav-item ul li {
+    padding-top: 15px;
+    margin-right: 10px;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    font-weight: 400;
+}
+
+.left-bottom-nav-item ul li a {
+    text-decoration: none;
+    color: #0b0b0b;
+    font-size: 16px;
+    padding: 15px 0 15px 0;
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+.right-bottom-nav {
+    width: 120px;
+    height: 62px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    
+}
+ 
+.enquiry-btn {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 6px 5px;
+    background: linear-gradient(to right, #da3e3e, #f9d423);
+    color: white;
+    border-radius: 7px;
+    font-size: 12px;
+    font-family: sans-serif;
+    
+}
+
+.enquiry-btn:hover {
+    background: linear-gradient(to left, #da3e3e, #f9d423);
+}
+
+.main-sec-container {
+    width: 1268px;
+    height: 546px;
+}
+
+.main-sec-items img {
+    width: 100%;
+    max-width: 1260px;
+    height: 540px;
+}
+
+.features-section {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #f0f0f0;    
+}
+
+.features-container {
+    width: 100%;
+    height: 350px;
+    margin: 0 15px;
+}
+
+.features-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 10px;
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+    height: 300px;
+    padding: 12px;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.feature-icon-bg {
+    width: 65px;
+    height: 65px;
+    position: relative;
+    border-radius: 50%;
+    background: #ebc2c5;
+    opacity: 0.9;
+    
+}
+
+.features-icon img {
+    
+}
+
+.feature-card h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    color: #0b0b0b;
+}
+
+.feature-card p {
+    font-size: 16px;
+    color: #616161;
+    padding: 0 28px 0 28px;
+}
